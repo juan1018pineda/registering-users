@@ -1,0 +1,13 @@
+html 
+    head
+        title Formulario de registro
+    body 
+        table
+            thead 
+                th Nombre 
+                th Email
+            tbody 
+                each val in users
+                    tr 
+                        td= val.name
+                        td= val.email
